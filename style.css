@@ -330,11 +330,20 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 18px;
   min-height: 52px;
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
   color: var(--accent-dark);
   font-weight: 750;
+}
+
+.contact-links span {
+  min-width: 72px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .contact-links a::after {
