@@ -98,6 +98,12 @@ button:focus-visible {
   color: var(--ink);
 }
 
+.language-link {
+  margin-left: 6px;
+  border-left: 1px solid var(--line);
+  padding-left: 16px;
+}
+
 main {
   width: min(1120px, calc(100% - 48px));
   margin: 0 auto;
@@ -408,6 +414,12 @@ main {
 
   .nav a {
     padding-inline: 0;
+  }
+
+  .language-link {
+    margin-left: 0;
+    border-left: 0;
+    padding-left: 0;
   }
 
   main,
